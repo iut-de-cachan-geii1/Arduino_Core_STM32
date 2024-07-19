@@ -52,8 +52,8 @@ set(BUILD_SHARED_LIBS false CACHE STRING "")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 17)
 
-set(CMAKE_EXECUTABLE_SUFFIX .elf)
-# These override CMAKE_EXECUTABLE_SUFFIX -- prevent any CMake built-in from overriding the value we want
-set(CMAKE_EXECUTABLE_SUFFIX_C .elf)
-set(CMAKE_EXECUTABLE_SUFFIX_CXX .elf)
-set(CMAKE_EXECUTABLE_SUFFIX_ASM .elf)
+# set(CMAKE_EXECUTABLE_SUFFIX .elf)
+# # These override CMAKE_EXECUTABLE_SUFFIX -- prevent any CMake built-in from overriding the value we want
+# set(CMAKE_EXECUTABLE_SUFFIX_C .elf)
+# set(CMAKE_EXECUTABLE_SUFFIX_CXX .elf)
+# set(CMAKE_EXECUTABLE_SUFFIX_ASM .elf)
